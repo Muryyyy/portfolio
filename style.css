@@ -1,0 +1,243 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+font-face{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+
+body{
+    
+    font-family: "Oswald", sans-serif;
+    /*background-image: linear-gradient(rgb(83, 81, 76), rgba(129, 125, 125, 0.178)); /* ser para colocar mais de uma cor no site*/
+    background-image: url(img/img-body.jpg);
+    
+}   
+
+/*Sessão do titulo(nome*/
+
+h1{
+    font-size: 20px;
+    margin-left: 120px;
+    text-align: left;
+    color: white;
+    position: absolute; /* Para posicionar o título de forma absoluta dentro de #se1 */
+    margin-top: 120px;
+}
+
+/*Sessão do main*/
+
+main {
+    background-color: rgba(230, 230, 230, 0.904);
+    width: 60em;
+    margin: auto;
+    box-shadow: 7px 8px 20px rgb(114, 110, 110);
+    height: 2120px;
+
+}
+
+/*Sessão da imagem do logo*/
+
+#se1 {
+    background-image: url(img/pexels-photo-1972464.jpeg);
+    background-size: cover; /* Para cobrir todo o elemento */
+    background-position: top center; /* Para posicionar a imagem no topo */
+    background-repeat: no-repeat; /* Para evitar a repetição da imagem */
+    height: 300px; /* Ajuste a altura conforme necessário */
+    width: 100%; /* Para ocupar toda a largura do elemento pai */
+}
+
+#se1 p{
+    font-size: 20px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 80px;
+    color: white;
+}
+
+/*Sessão da foto*/
+
+#perfil{
+    background-image: url(img/img-perfil.jpg);
+    margin-top: 190px;
+    margin-left: 70px;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+}
+
+
+/*Sessão da barra superior*/
+
+#se2{
+    background-color: rgba(0, 0, 0, 0.767);
+    height: 63px;
+    font-size: 35px;
+    
+}
+
+/*Sessão dos icones da barra superior*/
+
+#icon{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 700px;
+    
+}
+
+#icon a{
+    text-decoration: none;
+    color: white;
+}
+
+
+#icon2{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 770px;
+    
+}
+
+#icon2 a{
+    text-decoration: none;
+    color: white;
+
+}
+
+#icon3{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 840px;
+    
+}
+
+#icon3 a{
+    text-decoration: none;
+    color: white;
+
+}
+
+/*Sessão do nav */
+
+nav{
+    background-color: rgb(205, 207, 205);
+    height: auto;
+    width: 250px;
+    margin-left: 45px;
+    border-radius: 10px;
+    
+}
+
+nav h2{
+    text-align: center;
+    margin-top: 65px;
+    padding: 30px;
+}
+
+/*Sessão dos hobbies*/
+
+.hobbies {
+    font-size: 30px;
+}
+
+.hobbies h2{
+    text-align: center;
+    margin-top: 35px;
+    font-size: 25px;
+
+}
+
+.hobbies li{
+    float: left; /* Define que os itens da lista serão posicionados à esquerda, fazendo com que fiquem lado a lado horizontalmente */
+    margin-right: 15px; /* Espaço entre as listas */
+    list-style-type: none; /* Remove o marcador de uma lista com a classe "minha-lista" */
+    padding: 3px;
+   
+}
+
+/*Sessão do corpo direito*/
+
+#corpo{
+    font-size: 20px;
+   margin-left: 330px;
+   background-color: rgb(206, 206, 206);
+   margin-top: 415px;
+   position: absolute;
+   border-radius: 10px;
+   height: auto;
+   width: 600px;
+}
+
+#corpo h2{
+    text-align: center;
+    
+}
+
+#corpo h4,
+#corpo h5{
+    margin-left: 20px;
+}
+
+#corpo p{
+    margin-left: 20px;
+    font-size: 17px;
+  
+}
+
+
+/*Parte das skill*/
+
+.skill{
+    background-color: rgba(0, 0, 0, 0.767);
+    color: white;
+    margin-top: 160px;
+    height: 540px;
+    border-radius: 5px;
+}
+
+
+
+.nome-habilidade {
+    margin-bottom: 5px;
+    margin-left: 10px;
+    padding-top: 6px;
+}
+
+.barra {
+    width: 92%;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    height: 15px;
+    overflow: hidden;
+    margin-left: 10px;
+
+}
+
+.progresso {
+    background-color: #4caf50;
+    height: 100%;
+}
+
+
+.projects{
+    background-color:  rgba(0, 0, 0, 0.767);
+    color: white;
+    border-radius: 5px;
+    height: 350px;
+    
+}
+
+.projects a{
+    text-decoration: none;
+    color: white; 
+
+}
+
+.projects li{
+    padding: 4px;
+}
