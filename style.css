@@ -23,7 +23,7 @@ body{
 
 h1{
     font-size: 20px;
-    margin-left: 120px;
+    margin-left: 129px;
     text-align: left;
     color: white;
     position: absolute; /* Para posicionar o título de forma absoluta dentro de #se1 */
@@ -56,7 +56,7 @@ main {
     font-size: 20px;
     position: absolute;
     margin-top: 150px;
-    margin-left: 80px;
+    margin-left: 100px;
     color: white;
 }
 
